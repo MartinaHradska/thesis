@@ -1,0 +1,159 @@
+{
+  "name": "tic-tac-toe",
+  "rounds": 2,
+  "players": [
+    {
+      "name": "hracx",
+      "rounds": [
+        1
+      ]
+    },
+    {
+      "name": "hraco",
+      "rounds": [
+        2
+      ]
+    }
+  ],
+  "boards": [
+    {
+      "name": "paper",
+      "width": 3,
+      "height": 3,
+      "is_2d": true,
+      "board": [
+        [
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          }
+        ],
+        [
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          }
+        ],
+        [
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          },
+          {
+            "tile_values": [
+              "blank"
+            ],
+            "pieces": [
+              "empty"
+            ]
+          }
+        ]
+      ],
+      "tile_values": [
+        "blank",
+        "x",
+        "o"
+      ],
+      "pieces": [
+        "empty"
+      ],
+      "legal_conditions": [
+        [
+          [
+            "conditions",
+            [
+              "tile(X1,Y1,blank)"
+            ]
+          ]
+        ]
+      ],
+      "update_mark_outside_conditions": [
+        {
+          "value": "?val",
+          "conditions": [
+
+          ]
+        }
+      ],
+      "update_marked_conditions": [
+        {
+          "value": "x",
+          "conditions": [
+            "tile(X1,Y1,blank)",
+            "control(hracx)"
+          ]
+        },
+        {
+          "value": "o",
+          "conditions": [
+            "tile(X1,Y1,blank)",
+            "control(hraco)"
+          ]
+        }
+      ]
+    }
+  ],
+  "stacks": [
+
+  ],
+  "round_players": [
+    [
+      "hracx"
+    ],
+    [
+      "hraco"
+    ]
+  ]
+}
